@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  /* margin: 2em; */
+  align-items: center;
+}
+
+.App .our-tours {
+  margin: 1em;
+}
+/*  */
+
+.App .no-tours {
+  margin-top: 2em;
+}

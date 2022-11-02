@@ -1,0 +1,15 @@
+.refresh-button {
+  background-color: blueviolet;
+  border-color: blueviolet;
+  padding: 0.5em 2em;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0.5em;
+  font-size: 1.2em;
+}
+
+.refresh-button:hover {
+  background-color: rgb(56, 4, 104);
+  border-color: rgb(56, 4, 104);
+}

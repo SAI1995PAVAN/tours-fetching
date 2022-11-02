@@ -1,0 +1,94 @@
+.place-component {
+  border-radius: 1em;
+  max-width: 500px;
+  margin: 1em;
+  overflow: hidden;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.place-component-image {
+  width: 100%;
+  margin: 0;
+}
+
+.place-component-image img {
+  width: 100%;
+  height: 400px;
+  margin: 0;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.place-component-details {
+  height: 50%;
+  padding: 0.5em;
+  padding-top: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+.place-component-details .name-price {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 0.5em;
+  padding: 0;
+}
+
+.name-price h2 {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin: 0;
+  padding: 0;
+}
+
+.name-price p {
+  background-color: rgb(189, 238, 222);
+  color: black;
+  padding: 0 2em;
+  margin: 0;
+}
+
+.place-component-details .info {
+  text-align: justify;
+}
+
+.info .read-more {
+  background-color: #fff;
+  color: blue;
+  cursor: pointer;
+  border: #fff;
+  font-size: 1.2em;
+}
+.place-component-details .not-interested {
+  display: inline-block;
+  background-color: none;
+  border-color: rgb(243, 52, 52);
+  cursor: pointer;
+  padding: 0.5em 3em;
+  margin: 0.5em;
+  border-radius: 0.5em;
+  font-weight: bold;
+}
+
+.place-component-details .not-interested:hover {
+  background-color: rgb(226, 109, 109);
+}
+
+@media screen and (max-width: 600px) {
+  h1,
+  h2,
+  h3,
+  p {
+    font-size: 0.8em;
+  }
+
+  .place-component {
+    max-width: 300px;
+    margin: 1em;
+  }
+}
